@@ -21,7 +21,7 @@
     "html-webpack-plugin": "^1.6.2"
   },
   "scripts": {
-    "prestart": "npm install",
+    "prestart": "npm install & npm build",
     "build": "webpack --progress --profile --colors",
     "watch": "webpack --progress --colors --watch",
     "start": "npm run watch & node index.js"

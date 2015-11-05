@@ -52,9 +52,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
 
-        /* Babel is configured by the .babelrc, and this configuration
-           is shared both during the npm build phase, and the npm start
-           phase.  e.g. it is used by both the client and server
+        /* Babel is configured by the .babelrc, which is used in two different
+           contexts.  1) when the client is built, 2) when the server is transpiled
+           at startup by bable-core/register.  The cacheDirectory=true here, only
+           applies to the client build context.
         */
         loaders: [ 'react-hot', 'babel?cacheDirectory=true' ]
       }

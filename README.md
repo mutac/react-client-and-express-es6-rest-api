@@ -7,27 +7,25 @@ bundle the client app, and to provide a hot replace dev service along side an
 express api.
 
 Getting Started
----------------
-
-# Clone
+===============
 ```sh
 $ git clone https://github.com/mutac/react-client-and-express-es6-rest-api.git
 ```
 
-# Make it your own
+## Make it your own
 ```
 $ cd react-client-and-express-es6-rest-api
 $ rm -rf .git && git init && npm init
 ```
 
-# Install and build
+## Install and build
 ```sh
 $ npm install
 ...
 $ npm run build
 ```
 
-# Test it out
+## Try it out
 ```sh
 $ npm start
 $ open http://localhost:5050

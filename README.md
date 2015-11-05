@@ -30,6 +30,7 @@ $ npm run build
 # Test it out
 ```sh
 $ npm start
+$ open http://localhost:5050
 ```
 
 References

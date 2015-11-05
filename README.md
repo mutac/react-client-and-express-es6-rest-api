@@ -2,7 +2,7 @@ React & ES6 Express Rest API Boilerplate
 ========================================
 
 A little example project of a React client app that is written in es6 and jsx, and
-a backend express server, also written in es6.  Webpack is used to bundle and transpile the client app, and to transpile and serve an es6 express server app.  The example also shows how to set up the client app and server with Webpack so that modifications to the client are hot-replaced live by the dev server. 
+a backend express server, also written in es6.  Webpack is used to bundle and transpile the client app, and to transpile and serve an es6 express server app.  The example also shows how to set up the client app and server with Webpack so that modifications to the client are hot-reload live by the dev server. 
 
 Getting Started
 ===============
@@ -37,7 +37,7 @@ References
 
 keywords...
 babel 6
-react-hot
-hot replace
+react-hot-reloader
+hot replace reload
 es6
 express
